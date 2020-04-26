@@ -1,4 +1,4 @@
-import DevTo from 'dev.to'
+import DevTo from 'dev-to-js'
 
 const DevToClient = new DevTo({ apiKey: '%apiKey%' })
 

@@ -1,5 +1,5 @@
 {
-  "name": "dev.to",
+  "name": "dev-to-js",
   "version": "0.1.0",
   "description": "A universal client for the Dev.to API written in Typescript",
   "main": "dist/index.js",
