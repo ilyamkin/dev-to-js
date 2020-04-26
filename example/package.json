@@ -1,0 +1,12 @@
+{
+  "name": "dev.to-example",
+  "version": "1.0.0",
+  "description": "Example project with Dev.to API library",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ilya Lyamkin <ilya.lyamkin@gmail.com>",
+  "license": "MIT"
+}
