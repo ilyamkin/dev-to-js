@@ -5,7 +5,7 @@ import { Base, Pagination } from '../base'
 const resourceName = 'articles'
 
 export class Articles extends Base {
-    getArticles (params: SearchArticlesParams) {
+    getArticles (params?: SearchArticlesParams) {
         let query = `${resourceName}`
         if (params) {
             query += qs.stringify(params, '?')
