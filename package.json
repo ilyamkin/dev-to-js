@@ -1,11 +1,10 @@
 {
   "name": "dev-to-js",
   "version": "0.1.1",
-  "description": "A universal client for the Dev.to API written in Typescript",
+  "description": "An universal client for the Dev.to API written in Typescript",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
   "umd:main": "dist/index.umd.js",
-  "unpkg": "dist/index.umd.js", 
   "source": "src/index.ts",
   "scripts": {
     "build": "rm -rf dist && microbundle  --tsconfig tsconfig.json",
