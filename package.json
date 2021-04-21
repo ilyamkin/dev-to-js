@@ -6,6 +6,7 @@
   "module": "dist/index.m.js",
   "umd:main": "dist/index.umd.js",
   "source": "src/index.ts",
+  "repository": "github:ilyamkin/dev-to-js",
   "scripts": {
     "build": "rm -rf dist && microbundle  --tsconfig tsconfig.json",
     "dev": "microbundle watch --tsconfig tsconfig.json",
