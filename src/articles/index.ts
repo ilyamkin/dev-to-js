@@ -18,8 +18,7 @@ export class Articles extends Base {
     }
 
     getArticleByPath (username: string, slug: string) {
-        let query = `${resourceName}/${username}/${slug}`
-        return this.request<Article[]>(query)
+        return this.request<Article[]>(`${resourceName}/${username}/${slug}`)
     }
 
     getMyArticles (params?: Pagination) {
