@@ -1,6 +1,6 @@
 {
   "name": "dev-to-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An universal client for the Dev.to API written in Typescript",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.4.0",
-    "microbundle": "^0.11.0",
+    "microbundle": "0.13.0",
     "nock": "^12.0.3"
   },
   "keywords": [
@@ -33,7 +33,7 @@
     "dist"
   ],
   "dependencies": {
-    "isomorphic-unfetch": "^3.0.0",
-    "querystringify": "^2.1.1"
+    "isomorphic-unfetch": "3.1.0",
+    "querystringify": "2.2.0"
   }
 }
